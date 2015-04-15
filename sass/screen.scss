@@ -4,6 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+$background-path: "../images/grey_pixellated.png";
 
 h1{
 	font-family: Arial;
@@ -33,7 +34,7 @@ form{
 		display: block;
 		font-size: 1.6em;
 		margin: 5px;
-		background-image: url("./images/grey_pixellated.png");
+		background-image: url($background-path);
 		background-position: -250px -250px;
 	}
 }
@@ -41,13 +42,13 @@ form{
 button{
 	height: 50px;
 	font-size: 1.6em;
-	background-image: url("./images/grey_pixellated.png");
+	background-image: url($background-path);
 	background-position: -250px -250px;
 	margin: 6px;
 }
 
 .brand-logo{
-	background-image: url("./images/grey_pixellated.png");
+	background-image: url($background-path);
 	background-position: -250px -250px;
 	height: 200px;
 	width: 200px;
