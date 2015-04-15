@@ -71,18 +71,18 @@ form input {
   display: block;
   font-size: 1.6em;
   margin: 5px;
-  background-image: url("/images/grey_pixellated.png");
+  background-image: url("./images/grey_pixellated.png");
   background-position: -250px -250px; }
 
 button {
   height: 50px;
   font-size: 1.6em;
-  background-image: url("/images/grey_pixellated.png");
+  background-image: url("./images/grey_pixellated.png");
   background-position: -250px -250px;
   margin: 6px; }
 
 .brand-logo {
-  background-image: url("/images/grey_pixellated.png");
+  background-image: url("./images/grey_pixellated.png");
   background-position: -250px -250px;
   height: 200px;
   width: 200px;
