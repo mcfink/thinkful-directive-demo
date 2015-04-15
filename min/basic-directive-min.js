@@ -1,0 +1,1 @@
+angular.module("thinkfulBasicDirective",[]).directive("optIn",function(){return{restrict:"E",transclude:!0,templateUrl:"form.html",replace:!1}});
